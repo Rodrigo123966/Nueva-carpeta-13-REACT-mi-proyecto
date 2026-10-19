@@ -1,12 +1,12 @@
 function App() {
-  const amigo="Mariano"
-return (
-  <>
-    <h1>Mi primera aplicación React</h1>
-    <p>Estoy aprendiendo React.</p>
-    <p>Tengo una buena amistad con mi amigo {amigo}</p>
-  </>
+  const juego = "futbol";
+  return (
+    <>
+      <h1>Mi aplicación en React</h1>
+      <p>Estoy usando React.</p>
+      <p>Me encanta jugar {juego}</p>
+    </>
   );
 }
 
-export default App
+export default App;
